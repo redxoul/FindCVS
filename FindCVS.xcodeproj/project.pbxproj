@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC74E1A29984A22009D9C10 /* KakaoLocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E1929984A22009D9C10 /* KakaoLocalAPI.swift */; };
+		0EC74E1C29984C3C009D9C10 /* KakaoLocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E1B29984C3C009D9C10 /* KakaoLocalNetwork.swift */; };
+		0EC74E2229984F55009D9C10 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E1E29984F55009D9C10 /* DetailListCellData.swift */; };
+		0EC74E2329984F55009D9C10 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E1F29984F55009D9C10 /* KLDocument.swift */; };
+		0EC74E2429984F55009D9C10 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E2029984F55009D9C10 /* LocationData.swift */; };
+		0EC74E2529984F55009D9C10 /* MapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E2129984F55009D9C10 /* MapViewError.swift */; };
+		0EC74E27299877BD009D9C10 /* LocationInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E26299877BD009D9C10 /* LocationInfoViewModel.swift */; };
+		0EC74E2929987A17009D9C10 /* LocationInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E2829987A17009D9C10 /* LocationInfoModel.swift */; };
+		0EC74E2F2998B97A009D9C10 /* CLLocationManager+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E2E2998B97A009D9C10 /* CLLocationManager+Ex.swift */; };
+		0EC74E322998BB8C009D9C10 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC74E312998BB8C009D9C10 /* LocationService.swift */; };
 		0ED85F922992F91500F7B6B4 /* FindCVSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED85F912992F91500F7B6B4 /* FindCVSApp.swift */; };
-		0ED85F942992F91500F7B6B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED85F932992F91500F7B6B4 /* ContentView.swift */; };
+		0ED85F942992F91500F7B6B4 /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED85F932992F91500F7B6B4 /* LocationInfoView.swift */; };
 		0ED85F962992F91600F7B6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED85F952992F91600F7B6B4 /* Assets.xcassets */; };
 		0ED85F992992F91600F7B6B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED85F982992F91600F7B6B4 /* Preview Assets.xcassets */; };
 		0ED85FA32992F91600F7B6B4 /* FindCVSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED85FA22992F91600F7B6B4 /* FindCVSTests.swift */; };
@@ -34,9 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EC74E1929984A22009D9C10 /* KakaoLocalAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLocalAPI.swift; sourceTree = "<group>"; };
+		0EC74E1B29984C3C009D9C10 /* KakaoLocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLocalNetwork.swift; sourceTree = "<group>"; };
+		0EC74E1E29984F55009D9C10 /* DetailListCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
+		0EC74E1F29984F55009D9C10 /* KLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
+		0EC74E2029984F55009D9C10 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		0EC74E2129984F55009D9C10 /* MapViewError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewError.swift; sourceTree = "<group>"; };
+		0EC74E26299877BD009D9C10 /* LocationInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoViewModel.swift; sourceTree = "<group>"; };
+		0EC74E2829987A17009D9C10 /* LocationInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoModel.swift; sourceTree = "<group>"; };
+		0EC74E2E2998B97A009D9C10 /* CLLocationManager+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Ex.swift"; sourceTree = "<group>"; };
+		0EC74E312998BB8C009D9C10 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		0ED85F8E2992F91500F7B6B4 /* FindCVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED85F912992F91500F7B6B4 /* FindCVSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSApp.swift; sourceTree = "<group>"; };
-		0ED85F932992F91500F7B6B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ED85F932992F91500F7B6B4 /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
 		0ED85F952992F91600F7B6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED85F982992F91600F7B6B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ED85F9E2992F91600F7B6B4 /* FindCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +91,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC74E1829984A22009D9C10 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74E1929984A22009D9C10 /* KakaoLocalAPI.swift */,
+				0EC74E1B29984C3C009D9C10 /* KakaoLocalNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0EC74E1D29984F55009D9C10 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74E2029984F55009D9C10 /* LocationData.swift */,
+				0EC74E1F29984F55009D9C10 /* KLDocument.swift */,
+				0EC74E1E29984F55009D9C10 /* DetailListCellData.swift */,
+				0EC74E2129984F55009D9C10 /* MapViewError.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0EC74E2A29987A5D009D9C10 /* LocationInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0ED85F932992F91500F7B6B4 /* LocationInfoView.swift */,
+				0EC74E26299877BD009D9C10 /* LocationInfoViewModel.swift */,
+				0EC74E2829987A17009D9C10 /* LocationInfoModel.swift */,
+			);
+			path = LocationInfo;
+			sourceTree = "<group>";
+		};
+		0EC74E2C29987A74009D9C10 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74E2A29987A5D009D9C10 /* LocationInfo */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0EC74E2D2998B945009D9C10 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74E2E2998B97A009D9C10 /* CLLocationManager+Ex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0EC74E302998BB7A009D9C10 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74E312998BB8C009D9C10 /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		0ED85F852992F91500F7B6B4 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +168,12 @@
 		0ED85F902992F91500F7B6B4 /* FindCVS */ = {
 			isa = PBXGroup;
 			children = (
+				0EC74E302998BB7A009D9C10 /* Location */,
+				0EC74E2D2998B945009D9C10 /* Extension */,
 				0ED85F912992F91500F7B6B4 /* FindCVSApp.swift */,
-				0ED85F932992F91500F7B6B4 /* ContentView.swift */,
+				0EC74E2C29987A74009D9C10 /* Presentation */,
+				0EC74E1829984A22009D9C10 /* Network */,
+				0EC74E1D29984F55009D9C10 /* Entity */,
 				0ED85F952992F91600F7B6B4 /* Assets.xcassets */,
 				0ED85F972992F91600F7B6B4 /* Preview Content */,
 			);
@@ -257,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED85F942992F91500F7B6B4 /* ContentView.swift in Sources */,
+				0EC74E322998BB8C009D9C10 /* LocationService.swift in Sources */,
+				0EC74E2929987A17009D9C10 /* LocationInfoModel.swift in Sources */,
+				0EC74E2529984F55009D9C10 /* MapViewError.swift in Sources */,
+				0ED85F942992F91500F7B6B4 /* LocationInfoView.swift in Sources */,
+				0EC74E27299877BD009D9C10 /* LocationInfoViewModel.swift in Sources */,
+				0EC74E1A29984A22009D9C10 /* KakaoLocalAPI.swift in Sources */,
+				0EC74E1C29984C3C009D9C10 /* KakaoLocalNetwork.swift in Sources */,
+				0EC74E2229984F55009D9C10 /* DetailListCellData.swift in Sources */,
+				0EC74E2429984F55009D9C10 /* LocationData.swift in Sources */,
+				0EC74E2F2998B97A009D9C10 /* CLLocationManager+Ex.swift in Sources */,
 				0ED85F922992F91500F7B6B4 /* FindCVSApp.swift in Sources */,
+				0EC74E2329984F55009D9C10 /* KLDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +507,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FindCVS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 사용을 위해 위치권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +536,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FindCVS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 사용을 위해 위치권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

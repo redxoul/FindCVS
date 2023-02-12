@@ -2,7 +2,7 @@
 //  FindCVSApp.swift
 //  FindCVS
 //
-//  Created by solgoon on 2023/02/08.
+//  Created by Cody on 2023/02/08.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct FindCVSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationInfoView()
         }
     }
 }
